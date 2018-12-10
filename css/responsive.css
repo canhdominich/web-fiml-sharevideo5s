@@ -1,0 +1,1547 @@
+@media screen and (max-width: 1200px){
+	.wp-inner{
+		width: 100%;
+	}
+
+	/*HEADER*/
+	#header #logo{
+		width: 22%;
+	}
+
+	#header #search{
+		width: 50%;
+		font-size: 30px;
+	}
+
+	#header #menu-top-user{
+		width: 28%;
+	}
+
+	#header #search #form-search{
+		width: 100%;
+	}
+
+	#search #rs-search{
+		width: 100%;
+		margin-left: 0px;
+	}
+
+	#search #rs-search .suggest{
+		padding: 0px 0px;
+		box-sizing: border-box;
+	}
+
+	#rs-search .suggest .suggest-video-image{
+		width: 30%;
+		height: 80px;
+		border-left: 1px solid rgba(0, 0, 0, 0.2);
+		border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
+		box-sizing: border-box;
+	}
+
+	#rs-search .suggest .suggest-video-image .image{
+		width: 100%;
+		max-height: 80px;
+		padding: 5px 5px;
+		box-sizing: border-box;
+	}
+
+	/*Tao hieu ung khi re chuot*/
+	.suggest-video-image .mask-suggest-content{
+		position: absolute;
+		background-color: rgba(226, 23, 37,0.9);
+		width: 30%;
+		height: 80px;
+		text-align: center;
+		opacity: 0;
+
+		border: 5px solid #fff;
+		box-sizing: border-box;
+	}
+
+	.suggest-video-image .mask-suggest-content .vertical-align{
+		position: relative;
+		top: 38%;
+		color: #FA2F2F;
+	}
+
+
+	.suggest-video-image:hover .mask-suggest-content{
+		display: block;
+		cursor: pointer;
+		opacity: 100;
+		transition: all 0.3s;
+	}
+
+	.suggest-video-image .mask-suggest-content .vertical-align>p:after{
+		position: absolute;
+		font-family: "FontAwesome";
+		content: "\f144";
+		font-size: 40px;
+		left: 36%;
+		color: #fff;
+	}
+
+	/*end hieu ung*/
+
+	#rs-search .suggest .suggest-video-title{
+		width: 70%;
+		height: 80px;
+		padding: 5px 20px;
+		border-right: 1px solid rgba(0, 0, 0, 0.2);
+		border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
+		box-sizing: border-box;
+	}
+
+	#rs-search .suggest .suggest-video-title .name{
+		color : blue;  
+		font-size: 12px;
+		line-height: 16px;
+	}
+
+	#rs-search .suggest .suggest-video-title .author{
+		color: red; 
+		font-size: 12px;
+		line-height: 16px;
+	}
+
+	#rs-search .suggest .suggest-video-title a{
+		color: red;
+	}
+
+	/*style cho nut xem them*/
+	#rs-search #more-views{
+		height: 40px;
+		padding-top: 5px;
+		border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
+		box-sizing: border-box;
+	}
+
+	#rs-search #more-views a{
+		font-size: 14px;
+		color: #03A316;
+	}
+
+	#rs-search #more-views a:hover{
+		font-size: 14px;
+		color: #0B6315;
+	}
+	/*end*/
+
+	/*END HEADER*/
+
+	#wr-content #content{
+		width: 100%;
+	}
+
+	#content #wp-feature{
+		padding-top: 30px;
+	}
+
+	#wp-feature .category{
+		height: 45px;
+		border-bottom: 1px solid #01a050;
+		box-sizing: border-box;
+	}
+
+	#wp-feature .category .category-detail{
+		width: 20%;
+		height: 45px;
+		background: #01a050;
+		box-sizing: border-box;
+	}
+
+	#wp-feature .category .category-detail:hover{
+		background: red;
+		transition: all 0.25s;
+	}
+
+	.category-detail p{
+		font-weight: bold;
+		color: #fff;
+		padding-top: 10px;
+		font-size: 18px;
+	}
+
+
+	#wp-feature .widget-video{
+		margin-top: 30px;
+		width: 25%;
+		padding-right: 0px;
+		box-sizing: border-box;
+	}
+
+	.list-post-video {
+		height: 150px;
+		position: relative;
+		box-sizing: border-box;
+	}
+
+	/*public*/
+	.list-post-video .video{
+		width: 100%;
+		height: auto;
+		max-height: 150px;
+	}
+
+
+	#wp-feature #video-one{
+		min-height: 350px;
+		padding: 0px 10px 0px 10px;
+	}
+
+	.list-post-video span{
+		background-color: #e00918;
+		color: #fff;
+		padding: 5px 10px;
+		border-radius: 1px;
+		text-transform: uppercase;
+		font-weight: 700;
+		font-size: 9px;
+		position: absolute;
+		right: 0;
+		bottom: 0;
+	}
+
+	/*Tao hieu ung cho tung category*/
+	.widget-video .mask-suggest-content{
+		position: absolute;
+		background-color: rgba(226, 23, 37,0.9);
+		width: 100%;
+		height: 150px;
+		text-align: center;
+		opacity: 0;
+	}
+
+	.widget-video .vertical-align{
+		position: relative;
+		top: 43%;
+		color: #FA2F2F;
+	}
+
+
+	.widget-video:hover .mask-suggest-content{
+		display: block;
+		cursor: pointer;
+		opacity: 100;
+		transition: all 0.5s;
+		border-radius: 1px;
+	}
+
+	.widget-video .mask-suggest-content .vertical-align>p:after{
+		position: absolute;
+		font-family: "FontAwesome";
+		content: "\f144";
+		font-size: 60px;
+		left: 39%;
+		color: #fff;
+	}
+	/*end tao hieu ung post cover*/
+
+	.list-post-video-title{
+		width: 100%;
+		padding-top: 10px;
+		padding-left: 0px;
+		color: black;
+		font-size: 14px;
+		line-height: 20px;
+	}
+
+	/*index + category*/
+	.list-post-video-title .name{
+		color: black;
+		font-size: 18px;
+	} 
+
+	.list-post-video-title .author{
+		color: #01a050;
+		font-weight: 600;
+	}
+
+	.list-post-video-title .author:hover{
+		color: red;
+	}
+
+	#wr-content #sidebar{
+		display: none;
+	}
+
+	/*FOOTER*/
+	#footer #about{
+		width: 50%;
+	}
+
+	#footer #category{
+		width: 50%;
+	}
+
+	#footer #contact{
+		width: 50%;
+	}
+
+	#footer #fanpage{
+		width: 50%;
+	}
+	/*END*/
+}
+
+@media screen and (max-width: 1024px){
+	.wp-inner{
+		width: 100%;
+	}
+
+	/*HEADER*/
+	#header #logo{
+		width: 22%;
+	}
+
+	#header #search{
+		width: 78%;
+		font-size: 30px;
+	}
+
+	#header #menu-top-user{
+		width: 100%;
+	}
+
+	#header #search #form-search{
+		width: 100%;
+	}
+
+	#search #rs-search{
+		width: 100%;
+		margin-left: 0px;
+	}
+
+	#search #rs-search .suggest{
+		padding: 0px 0px;
+		box-sizing: border-box;
+	}
+
+	#rs-search .suggest .suggest-video-image{
+		width: 30%;
+		height: 80px;
+		border-left: 1px solid rgba(0, 0, 0, 0.2);
+		border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
+		box-sizing: border-box;
+	}
+
+	#rs-search .suggest .suggest-video-image .image{
+		width: 100%;
+		max-height: 80px;
+		padding: 5px 5px;
+		box-sizing: border-box;
+	}
+
+	/*Tao hieu ung khi re chuot*/
+	.suggest-video-image .mask-suggest-content{
+		position: absolute;
+		background-color: rgba(226, 23, 37,0.9);
+		width: 30%;
+		height: 80px;
+		text-align: center;
+		opacity: 0;
+
+		border: 5px solid #fff;
+		box-sizing: border-box;
+	}
+
+	.suggest-video-image .mask-suggest-content .vertical-align{
+		position: relative;
+		top: 38%;
+		color: #FA2F2F;
+	}
+
+
+	.suggest-video-image:hover .mask-suggest-content{
+		display: block;
+		cursor: pointer;
+		opacity: 100;
+		transition: all 0.3s;
+	}
+
+	.suggest-video-image .mask-suggest-content .vertical-align>p:after{
+		position: absolute;
+		font-family: "FontAwesome";
+		content: "\f144";
+		font-size: 40px;
+		left: 36%;
+		color: #fff;
+	}
+
+	/*end hieu ung*/
+
+	#rs-search .suggest .suggest-video-title{
+		width: 70%;
+		height: 80px;
+		padding: 5px 20px;
+		border-right: 1px solid rgba(0, 0, 0, 0.2);
+		border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
+		box-sizing: border-box;
+	}
+
+	#rs-search .suggest .suggest-video-title .name{
+		color : blue;  
+		font-size: 12px;
+		line-height: 16px;
+	}
+
+	#rs-search .suggest .suggest-video-title .author{
+		color: red; 
+		font-size: 12px;
+		line-height: 16px;
+	}
+
+	#rs-search .suggest .suggest-video-title a{
+		color: red;
+	}
+
+	/*style cho nut xem them*/
+	#rs-search #more-views{
+		height: 40px;
+		padding-top: 5px;
+		border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
+		box-sizing: border-box;
+	}
+
+	#rs-search #more-views a{
+		font-size: 14px;
+		color: #03A316;
+	}
+
+	#rs-search #more-views a:hover{
+		font-size: 14px;
+		color: #0B6315;
+	}
+	/*end*/
+
+	/*END HEADER*/
+
+	/*CONTENT*/
+
+	#content{
+		width: 100%;
+		padding-right: 0px;
+	}
+
+	/*ADVERTISMENT*/
+	#wp-cover-advertising #post-video-advertisment{
+		padding-top: 20px;
+		width: 100%;
+		height: 300px;
+		box-sizing: border-box;
+	}
+
+	#wp-cover-advertising #post-text-advertisment{
+		display: none;
+	}
+
+	#post-video-advertisment .video{
+		width: 100%;
+		max-height: 300px;
+		box-sizing: border-box;
+	}
+	/*END ADVERTISMENT*/
+
+	#content #wp-feature{
+		padding-top: 30px;
+	}
+
+	#wp-feature .category{
+		height: 45px;
+		border-bottom: 1px solid #01a050;
+		box-sizing: border-box;
+	}
+
+	#wp-feature .category .category-detail{
+		width: 20%;
+		height: 45px;
+		background: #01a050;
+		box-sizing: border-box;
+	}
+
+	#wp-feature .category .category-detail:hover{
+		background: red;
+		transition: all 0.25s;
+	}
+
+	.category-detail p{
+		font-weight: bold;
+		color: #fff;
+		padding-top: 10px;
+		font-size: 18px;
+	}
+
+
+	#wp-feature .widget-video{
+		margin-top: 30px;
+		width: 33.33%;
+		padding-right: 0px;
+		box-sizing: border-box;
+	}
+
+	.list-post-video {
+		height: 150px;
+		position: relative;
+		box-sizing: border-box;
+	}
+
+	/*public*/
+	.list-post-video .video{
+		width: 100%;
+		height: auto;
+		max-height: 150px;
+	}
+
+
+	#wp-feature #video-one{
+		min-height: 300px;
+		padding: 0px 10px 0px 10px;
+	}
+
+	.list-post-video span{
+		background-color: #e00918;
+		color: #fff;
+		padding: 5px 10px;
+		border-radius: 1px;
+		text-transform: uppercase;
+		font-weight: 700;
+		font-size: 9px;
+		position: absolute;
+		right: 0;
+		bottom: 0;
+	}
+
+	/*Tao hieu ung cho tung category*/
+	.widget-video .mask-suggest-content{
+		position: absolute;
+		background-color: rgba(226, 23, 37,0.9);
+		width: 100%;
+		height: 150px;
+		text-align: center;
+		opacity: 0;
+	}
+
+	.widget-video .vertical-align{
+		position: relative;
+		top: 43%;
+		color: #FA2F2F;
+	}
+
+
+	.widget-video:hover .mask-suggest-content{
+		display: block;
+		cursor: pointer;
+		opacity: 100;
+		transition: all 0.5s;
+		border-radius: 1px;
+	}
+
+	.widget-video .mask-suggest-content .vertical-align>p:after{
+		position: absolute;
+		font-family: "FontAwesome";
+		content: "\f144";
+		font-size: 60px;
+		left: 39%;
+		color: #fff;
+	}
+	/*end tao hieu ung post cover*/
+
+	.list-post-video-title{
+		width: 100%;
+		padding-top: 10px;
+		padding-left: 0px;
+		color: black;
+		font-size: 14px;
+		line-height: 20px;
+	}
+
+	/*index + category*/
+	.list-post-video-title .name{
+		color: black;
+		font-size: 18px;
+	} 
+
+	.list-post-video-title .author{
+		color: #01a050;
+		font-weight: 600;
+	}
+
+	.list-post-video-title .author:hover{
+		color: red;
+	}
+
+	#wr-content #sidebar{
+		display: none;
+	}
+
+	/*FOOTER*/
+	#footer #about{
+		width: 50%;
+	}
+
+	#footer #category{
+		width: 50%;
+	}
+
+	#footer #contact{
+		width: 50%;
+	}
+
+	#footer #fanpage{
+		width: 50%;
+	}
+	/*END*/
+}
+
+@media screen and (max-width: 768px){
+	.wp-inner{
+		width: 100%;
+	}
+
+	/*HEADER*/
+	#header #logo{
+		width: 30%;
+	}
+
+	#header #search{
+		width: 70%;
+		font-size: 30px;
+	}
+
+	#header #menu-top-user{
+		width: 100%;
+	}
+
+	#header #search #form-search{
+		width: 100%;
+	}
+
+	#search #rs-search{
+		width: 100%;
+		margin-left: 0px;
+	}
+
+	#search #rs-search .suggest{
+		padding: 0px 0px;
+		box-sizing: border-box;
+	}
+
+	#rs-search .suggest .suggest-video-image{
+		width: 30%;
+		height: 80px;
+		border-left: 1px solid rgba(0, 0, 0, 0.2);
+		border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
+		box-sizing: border-box;
+	}
+
+	#rs-search .suggest .suggest-video-image .image{
+		width: 100%;
+		max-height: 80px;
+		padding: 5px 5px;
+		box-sizing: border-box;
+	}
+
+	/*Tao hieu ung khi re chuot*/
+	.suggest-video-image .mask-suggest-content{
+		position: absolute;
+		background-color: rgba(226, 23, 37,0.9);
+		width: 30%;
+		height: 80px;
+		text-align: center;
+		opacity: 0;
+
+		border: 5px solid #fff;
+		box-sizing: border-box;
+	}
+
+	.suggest-video-image .mask-suggest-content .vertical-align{
+		position: relative;
+		top: 38%;
+		color: #FA2F2F;
+	}
+
+
+	.suggest-video-image:hover .mask-suggest-content{
+		display: block;
+		cursor: pointer;
+		opacity: 100;
+		transition: all 0.3s;
+	}
+
+	.suggest-video-image .mask-suggest-content .vertical-align>p:after{
+		position: absolute;
+		font-family: "FontAwesome";
+		content: "\f144";
+		font-size: 40px;
+		left: 36%;
+		color: #fff;
+	}
+
+	/*end hieu ung*/
+
+	#rs-search .suggest .suggest-video-title{
+		width: 70%;
+		height: 80px;
+		padding: 5px 20px;
+		border-right: 1px solid rgba(0, 0, 0, 0.2);
+		border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
+		box-sizing: border-box;
+	}
+
+	#rs-search .suggest .suggest-video-title .name{
+		color : blue;  
+		font-size: 10px;
+		line-height: 16px;
+	}
+
+	#rs-search .suggest .suggest-video-title .author{
+		color: red; 
+		font-size: 10px;
+		line-height: 16px;
+	}
+
+	#rs-search .suggest .suggest-video-title a{
+		color: red;
+	}
+
+	/*style cho nut xem them*/
+	#rs-search #more-views{
+		height: 40px;
+		padding-top: 5px;
+		border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
+		box-sizing: border-box;
+	}
+
+	#rs-search #more-views a{
+		font-size: 14px;
+		color: #03A316;
+	}
+
+	#rs-search #more-views a:hover{
+		font-size: 14px;
+		color: #0B6315;
+	}
+	/*end*/
+
+	/*END HEADER*/
+
+	#wr-content #content{
+		width: 100%;
+		padding-right: 0px;
+	}
+
+	/*ADVERTISMENT*/
+	#wp-cover-advertising #post-video-advertisment{
+		padding-top: 20px;
+		width: 100%;
+		height: 300px;
+		box-sizing: border-box;
+	}
+
+	#wp-cover-advertising #post-text-advertisment{
+		display: none;
+	}
+
+	#post-video-advertisment .video{
+		width: 100%;
+		max-height: 300px;
+		box-sizing: border-box;
+	}
+	/*END ADVERTISMENT*/
+
+	#content #wp-feature{
+		padding-top: 30px;
+	}
+
+	#wp-feature .category{
+		height: 45px;
+		border-bottom: 1px solid #01a050;
+		box-sizing: border-box;
+	}
+
+	#wp-feature .category .category-detail{
+		width: 20%;
+		height: 45px;
+		background: #01a050;
+		box-sizing: border-box;
+	}
+
+	#wp-feature .category .category-detail:hover{
+		background: red;
+		transition: all 0.25s;
+	}
+
+	.category-detail p{
+		font-weight: bold;
+		color: #fff;
+		padding-top: 10px;
+		font-size: 18px;
+	}
+
+
+	#wp-feature .widget-video{
+		margin-top: 30px;
+		width: 50%;
+		padding-right: 0px;
+		box-sizing: border-box;
+	}
+
+	.list-post-video {
+		height: 150px;
+		position: relative;
+		box-sizing: border-box;
+	}
+
+	/*public*/
+	.list-post-video .video{
+		width: 100%;
+		height: auto;
+		max-height: 150px;
+	}
+
+
+	#wp-feature #video-one{
+		min-height: 300px;
+		padding: 0px 10px 0px 10px;
+	}
+
+	.list-post-video span{
+		background-color: #e00918;
+		color: #fff;
+		padding: 5px 10px;
+		border-radius: 1px;
+		text-transform: uppercase;
+		font-weight: 700;
+		font-size: 9px;
+		position: absolute;
+		right: 0;
+		bottom: 0;
+	}
+
+	/*Tao hieu ung cho tung category*/
+	.widget-video .mask-suggest-content{
+		position: absolute;
+		background-color: rgba(226, 23, 37,0.9);
+		width: 100%;
+		height: 150px;
+		text-align: center;
+		opacity: 0;
+	}
+
+	.widget-video .vertical-align{
+		position: relative;
+		top: 43%;
+		color: #FA2F2F;
+	}
+
+
+	.widget-video:hover .mask-suggest-content{
+		display: block;
+		cursor: pointer;
+		opacity: 100;
+		transition: all 0.5s;
+		border-radius: 1px;
+	}
+
+	.widget-video .mask-suggest-content .vertical-align>p:after{
+		position: absolute;
+		font-family: "FontAwesome";
+		content: "\f144";
+		font-size: 60px;
+		left: 39%;
+		color: #fff;
+	}
+	/*end tao hieu ung post cover*/
+
+	.list-post-video-title{
+		width: 100%;
+		padding-top: 10px;
+		padding-left: 0px;
+		color: black;
+		font-size: 14px;
+		line-height: 20px;
+	}
+
+	/*index + category*/
+	.list-post-video-title .name{
+		color: black;
+		font-size: 18px;
+	} 
+
+	.list-post-video-title .author{
+		color: #01a050;
+		font-weight: 600;
+	}
+
+	.list-post-video-title .author:hover{
+		color: red;
+	}
+
+	#wr-content #sidebar{
+		display: none;
+	}
+
+	/*FOOTER*/
+	#footer #about{
+		width: 100%;
+	}
+
+	#footer #category{
+		width: 100%;
+	}
+
+	#footer #contact{
+		width: 100%;
+	}
+
+	#footer #fanpage{
+		width: 100%;
+	}
+	/*END*/
+}
+
+@media screen and (max-width: 500px){
+	.wp-inner{
+		width: 100%;
+	}
+
+	/*HEADER*/
+	#header #logo{
+		display: 100%;
+	}
+
+	#header #search{
+		width: 100%;
+	}
+
+	#header #search #form-search{
+		width: 100%;
+	}
+
+	#search #rs-search{
+		width: 100%;
+		margin-left: 0px;
+	}
+
+	#search #rs-search .suggest{
+		padding: 0px 0px;
+		box-sizing: border-box;
+	}
+
+	#rs-search .suggest .suggest-video-image{
+		width: 20%;
+		height: 60px;
+		border-left: 1px solid rgba(0, 0, 0, 0.2);
+		border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
+		box-sizing: border-box;
+	}
+
+	#rs-search .suggest .suggest-video-image .image{
+		width: 100%;
+		max-height: 60px;
+		padding: 5px 5px;
+		box-sizing: border-box;
+	}
+
+	/*Tao hieu ung khi re chuot*/
+	.suggest-video-image .mask-suggest-content{
+		position: absolute;
+		background-color: rgba(226, 23, 37,0.9);
+		width: 20%;
+		height: 60px;
+		text-align: center;
+		opacity: 0;
+
+		border: 5px solid #fff;
+		box-sizing: border-box;
+	}
+
+	.suggest-video-image .mask-suggest-content .vertical-align{
+		position: relative;
+		top: 30%;
+		color: #FA2F2F;
+	}
+
+
+	.suggest-video-image:hover .mask-suggest-content{
+		display: block;
+		cursor: pointer;
+		opacity: 100;
+		transition: all 0.3s;
+	}
+
+	.suggest-video-image .mask-suggest-content .vertical-align>p:after{
+		position: absolute;
+		font-family: "FontAwesome";
+		content: "\f144";
+		font-size: 25px;
+		left: 35%;
+		color: #fff;
+	}
+
+	/*end hieu ung*/
+
+	#rs-search .suggest .suggest-video-title{
+		width: 80%;
+		height: 60px;
+		padding: 5px 20px;
+		border-right: 1px solid rgba(0, 0, 0, 0.2);
+		border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
+		box-sizing: border-box;
+	}
+
+	#rs-search .suggest .suggest-video-title .name{
+		color : blue;  
+		font-size: 12px;
+		line-height: 16px;
+	}
+
+	#rs-search .suggest .suggest-video-title .author{
+		color: red; 
+		font-size: 12px;
+		line-height: 16px;
+	}
+
+	#rs-search .suggest .suggest-video-title a{
+		color: red;
+	}
+
+	/*style cho nut xem them*/
+	#rs-search #more-views{
+		height: 40px;
+		padding-top: 10px;
+		border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
+		box-sizing: border-box;
+	}
+
+	#rs-search #more-views a{
+		font-size: 16px;
+		color: #03A316;
+	}
+
+	#rs-search #more-views a:hover{
+		font-size: 16px;
+		color: #0B6315;
+	}
+	/*end*/
+
+	#header #menu-top-user{
+		width: 100%;
+	}
+	/*END HEADER*/
+
+	#wr-content #content{
+		width: 100%;
+	}
+	
+	/*ADVERTISMENT*/
+	#wp-cover-advertising #post-video-advertisment{
+		padding-top: 20px;
+		width: 100%;
+		height: 300px;
+		box-sizing: border-box;
+	}
+
+	#wp-cover-advertising #post-text-advertisment{
+		display: none;
+	}
+
+	#post-video-advertisment .video{
+		width: 100%;
+		max-height: 300px;
+		box-sizing: border-box;
+	}
+	/*END ADVERTISMENT*/
+
+	#content #wp-feature{
+		padding-top: 30px;
+	}
+
+	#wp-feature .category{
+		height: 45px;
+		border-bottom: 1px solid #01a050;
+		box-sizing: border-box;
+	}
+
+	#wp-feature .category .category-detail{
+		width: 40%;
+		height: 45px;
+		background: #01a050;
+		box-sizing: border-box;
+	}
+
+	#wp-feature .category .category-detail:hover{
+		background: red;
+		transition: all 0.25s;
+	}
+
+	.category-detail p{
+		font-weight: bold;
+		color: #fff;
+		padding-top: 10px;
+		font-size: 18px;
+	}
+
+
+	#wp-feature .widget-video{
+		margin-top: 30px;
+		width: 100%;
+		padding-right: 0px;
+		box-sizing: border-box;
+	}
+
+	.list-post-video {
+		height: 200px;
+		position: relative;
+		box-sizing: border-box;
+	}
+
+	/*public*/
+	.list-post-video .video{
+		width: 100%;
+		height: auto;
+		max-height: 200px;
+	}
+
+
+	#wp-feature #video-one{
+		min-height: 300px;
+	}
+
+	.list-post-video span{
+		background-color: #e00918;
+		color: #fff;
+		padding: 10px 15px;
+		border-radius: 1px;
+		text-transform: uppercase;
+		font-weight: 700;
+		font-size: 9px;
+		position: absolute;
+		right: 0;
+		bottom: 0;
+	}
+
+	/*Tao hieu ung cho tung category*/
+	.widget-video .mask-suggest-content{
+		position: absolute;
+		background-color: rgba(226, 23, 37,0.9);
+		width: 100%;
+		height: 200px;
+		text-align: center;
+		opacity: 0;
+	}
+
+	.widget-video .vertical-align{
+		position: relative;
+		top: 45%;
+		color: #FA2F2F;
+	}
+
+
+	.widget-video:hover .mask-suggest-content{
+		display: block;
+		cursor: pointer;
+		opacity: 100;
+		transition: all 0.5s;
+		border-radius: 1px;
+	}
+
+	.widget-video .mask-suggest-content .vertical-align>p:after{
+		position: absolute;
+		font-family: "FontAwesome";
+		content: "\f144";
+		font-size: 80px;
+		left: 40%;
+		color: #fff;
+	}
+	/*end tao hieu ung post cover*/
+
+	.list-post-video-title{
+		width: 100%;
+		padding-top: 20px;
+		padding-left: 0px;
+		color: black;
+		font-size: 18px;
+		line-height: 24px;
+	}
+
+	/*index + category*/
+	.list-post-video-title .name{
+		color: black;
+		font-size: 18px;
+		line-height: 24px;
+	} 
+
+	.list-post-video-title .author{
+		color: #01a050;
+		font-weight: 600;
+	}
+
+	.list-post-video-title .author:hover{
+		color: red;
+	}
+
+	#wr-content #sidebar{
+		display: none;
+	}
+
+	/*FOOTER*/
+	#footer #about{
+		width: 100%;
+	}
+
+	#footer #category{
+		width: 100%;
+	}
+
+	#footer #contact{
+		width: 100%;
+	}
+
+	#footer #fanpage{
+		width: 100%;
+	}
+
+	#text-about p{
+		line-height: 40px;
+	}
+
+	#text-contact p{
+		font-size: 30px;
+		line-height: 40px;
+	}
+
+
+	#category #text-category a{
+		font-size: 30px;
+		line-height: 40px;
+		color: #fff;
+		text-transform: capitalize;
+	}
+	/*END*/
+}
+
+@media screen and (max-width: 400px){
+	.wp-inner{
+		width: 100%;
+	}
+
+	/*HEADER*/
+	#header #logo{
+		display: 100%;
+	}
+
+	#header #search{
+		width: 100%;
+	}
+
+	#header #menu-top-user{
+		width: 100%;
+	}
+
+	#header #search #form-search{
+		width: 100%;
+	}
+
+	#search #rs-search{
+		width: 100%;
+		margin-left: 0px;
+	}
+
+	#search #rs-search .suggest{
+		padding: 0px 0px;
+		box-sizing: border-box;
+	}
+
+	#rs-search .suggest .suggest-video-image{
+		width: 30%;
+		height: 60px;
+		border-left: 1px solid rgba(0, 0, 0, 0.2);
+		border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
+		box-sizing: border-box;
+	}
+
+	#rs-search .suggest .suggest-video-image .image{
+		width: 100%;
+		max-height: 60px;
+		padding: 5px 5px;
+		box-sizing: border-box;
+	}
+
+	/*Tao hieu ung khi re chuot*/
+	.suggest-video-image .mask-suggest-content{
+		position: absolute;
+		background-color: rgba(226, 23, 37,0.9);
+		width: 30%;
+		height: 60px;
+		text-align: center;
+		opacity: 0;
+
+		border: 5px solid #fff;
+		box-sizing: border-box;
+	}
+
+	.suggest-video-image .mask-suggest-content .vertical-align{
+		position: relative;
+		top: 25%;
+		color: #FA2F2F;
+	}
+
+
+	.suggest-video-image:hover .mask-suggest-content{
+		display: block;
+		cursor: pointer;
+		opacity: 100;
+		transition: all 0.3s;
+	}
+
+	.suggest-video-image .mask-suggest-content .vertical-align>p:after{
+		position: absolute;
+		font-family: "FontAwesome";
+		content: "\f144";
+		font-size: 30px;
+		left: 35%;
+		color: #fff;
+	}
+
+	/*end hieu ung*/
+
+	#rs-search .suggest .suggest-video-title{
+		width: 70%;
+		height: 90px;
+		padding: 5px 20px;
+		border-right: 1px solid rgba(0, 0, 0, 0.2);
+		border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
+		box-sizing: border-box;
+	}
+
+	#rs-search .suggest .suggest-video-title .name{
+		color : blue;  
+		font-size: 10px;
+		line-height: 16px;
+	}
+
+	#rs-search .suggest .suggest-video-title .author{
+		color: red; 
+		font-size: 10px;
+		line-height: 16px;
+	}
+
+	#rs-search .suggest .suggest-video-title a{
+		color: red;
+	}
+
+	/*style cho nut xem them*/
+	#rs-search #more-views{
+		height: 40px;
+		padding-top: 10px;
+		border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
+		box-sizing: border-box;
+	}
+
+	#rs-search #more-views a{
+		font-size: 12px;
+		color: #03A316;
+	}
+
+	#rs-search #more-views a:hover{
+		font-size: 12px;
+		color: #0B6315;
+	}
+	/*end*/
+	/*END HEADER*/
+
+	#wr-content #content{
+		width: 100%;
+	}
+	
+	/*ADVERTISMENT*/
+	#wp-cover-advertising #post-video-advertisment{
+		padding-top: 20px;
+		width: 100%;
+		height: 150px;
+		box-sizing: border-box;
+	}
+
+	#wp-cover-advertising #post-text-advertisment{
+		display: none;
+	}
+
+	#post-video-advertisment .video{
+		width: 100%;
+		max-height: 150px;
+		box-sizing: border-box;
+	}
+	/*END ADVERTISMENT*/
+
+	#content #wp-feature{
+		padding-top: 30px;
+	}
+
+	#wp-feature .category{
+		height: 45px;
+		border-bottom: 1px solid #01a050;
+		box-sizing: border-box;
+	}
+
+	#wp-feature .category .category-detail{
+		width: 50%;
+		height: 45px;
+		background: #01a050;
+		box-sizing: border-box;
+	}
+
+	#wp-feature .category .category-detail:hover{
+		background: red;
+		transition: all 0.25s;
+	}
+
+	.category-detail p{
+		font-weight: bold;
+		color: #fff;
+		padding-top: 10px;
+		font-size: 18px;
+	}
+
+
+	#wp-feature .widget-video{
+		margin-top: 30px;
+		width: 100%;
+		padding-right: 0px;
+		box-sizing: border-box;
+	}
+
+	.list-post-video {
+		height: 200px;
+		position: relative;
+		box-sizing: border-box;
+	}
+
+	/*public*/
+	.list-post-video .video{
+		width: 100%;
+		max-height: 200px;
+	}
+
+
+	#wp-feature #video-one{
+		min-height: 250px;
+	}
+
+	.list-post-video span{
+		background-color: #e00918;
+		color: #fff;
+		padding: 10px 15px;
+		border-radius: 1px;
+		text-transform: uppercase;
+		font-weight: 700;
+		font-size: 9px;
+		position: absolute;
+		right: 0;
+		bottom: 0;
+	}
+
+	/*Tao hieu ung cho tung category*/
+	.widget-video .mask-suggest-content{
+		position: absolute;
+		background-color: rgba(226, 23, 37,0.9);
+		width: 100%;
+		height: 200px;
+		text-align: center;
+		opacity: 0;
+	}
+
+	.widget-video .vertical-align{
+		position: relative;
+		top: 45%;
+		color: #FA2F2F;
+	}
+
+
+	.widget-video:hover .mask-suggest-content{
+		display: block;
+		cursor: pointer;
+		opacity: 100;
+		transition: all 0.5s;
+		border-radius: 1px;
+	}
+
+	.widget-video .mask-suggest-content .vertical-align>p:after{
+		position: absolute;
+		font-family: "FontAwesome";
+		content: "\f144";
+		font-size: 80px;
+		left: 38%;
+		color: #fff;
+	}
+	/*end tao hieu ung post cover*/
+
+	.list-post-video-title{
+		width: 100%;
+		padding-top: 20px;
+		padding-left: 0px;
+		color: black;
+		font-size: 16px;
+		line-height: 20px;
+	}
+
+	/*index + category*/
+	.list-post-video-title .name{
+		color: black;
+		font-size: 16px;
+		line-height: 20px;
+	} 
+
+	.list-post-video-title .author{
+		color: #01a050;
+		font-weight: 600;
+	}
+
+	.list-post-video-title .author:hover{
+		color: red;
+	}
+
+	#wr-content #sidebar{
+		display: none;
+	}
+
+	/*FOOTER*/
+	#footer #about{
+		width: 100%;
+	}
+
+	#footer #category{
+		width: 100%;
+	}
+
+	#footer #contact{
+		width: 100%;
+	}
+
+	#footer #fanpage{
+		width: 100%;
+	}
+
+	#text-about p{
+		line-height: 40px;
+	}
+
+	#text-contact p{
+		font-size: 30px;
+		line-height: 40px;
+	}
+
+
+	#category #text-category a{
+		font-size: 30px;
+		line-height: 40px;
+		color: #fff;
+		text-transform: capitalize;
+	}
+	/*END*/
+}
+
+@media screen and (max-width: 240px){
+	
+}

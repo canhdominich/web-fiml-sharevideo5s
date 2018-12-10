@@ -1,0 +1,174 @@
+#wp-category{
+	padding-bottom: 40px;
+	border-bottom: 1px solid #01a050;
+}
+
+#category-cover{
+	padding-top: 20px;
+	box-sizing: border-box;
+}
+
+#wp-list-post{
+	width: 100%;
+	box-sizing: border-box;
+}
+
+#wp-list-post>ul>li{
+	height: 150px;
+	margin-top: 40px;
+	box-sizing: border-box;
+}
+
+.category-list-post-image{
+	position: relative;
+	width: 250px;
+	height: 140px;
+	box-sizing: border-box;
+}
+
+.category-list-post-image .video{
+	width: 100%;
+	height: auto;
+	max-height: 140px;
+}
+
+.category-list-post-image span{
+	background-color: #e00918;
+	color: #fff;
+	padding: 2px 8px;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 8px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+/*Tao hieu ung khi re chuot*/
+.category-list-post-image .mask-suggest-content{
+	position: absolute;
+	background-color: rgba(226, 23, 37,0.9);
+	width: 250px;
+	height: 140px;
+	text-align: center;
+	opacity: 0;
+}
+
+.category-list-post-image .vertical-align{
+	position: relative;
+	top: 40%;
+	color: #FA2F2F;
+}
+
+
+.category-list-post-image:hover .mask-suggest-content{
+	display: block;
+	cursor: pointer;
+	opacity: 100;
+	transition: all 0.3s;
+}
+
+.category-list-post-image .mask-suggest-content .vertical-align>p:after{
+	position: absolute;
+	font-family: "FontAwesome";
+	content: "\f144";
+	font-size: 60px;
+	left: 40%;
+	color: #fff;
+}
+
+/*end hieu ung*/
+
+.category-list-post-detail{
+	width: 545px;
+	padding-left: 20px;
+	box-sizing: border-box;
+}
+
+.category-list-post-description{
+	font-size: 14px;
+	line-height: 24px;
+	color: #3f3f3f;
+	padding-top: 15px;
+}
+
+h2:hover{
+	color: #021dc6;
+}
+
+/*phan trang*/
+
+#wp-pagination{
+	padding-top: 50px;
+}
+
+#pagination-left{
+	width: 250px;
+}
+
+#pagination-right{
+	width: 545px;
+	padding-left: 20px;
+	box-sizing: border-box;
+}
+
+#wp-pagination ul li{
+	background-color:  #a00101;
+	color: #fff;
+	padding: 6px 12px;
+	text-transform: uppercase;
+	font-weight: 500;
+	border: 1px solid #a00101;
+	float: left;
+	border-radius: 999px;
+	cursor: pointer;
+}
+
+#wp-pagination span{
+	font-size: 12px;
+}
+
+#wp-pagination ul li:hover{
+	background: #fff;
+	color: #01a050;
+	border: 1px solid #02DB55;
+	transition: all 0.25s;
+}
+
+.current-page{
+	background: #01a050;
+	color: #fff;
+}
+
+#wp-pagination ul #view-more{
+	background-color: #FAA228;
+	color: #a00101;
+	padding: 7px 14px;
+	text-transform: uppercase;
+	font-weight: 500;
+	border: 1px solid #FAA228;
+	float: left;
+	border-radius: 999px;
+	cursor: pointer;
+}
+
+#wp-pagination ul #view-more:hover{
+	background: #22D602;
+	color: #22D602;
+	border: 1px solid #22D602;
+	transition: all 0.25s;
+}
+
+#wp-pagination ul #view-more .hand-point-up:after{
+	color: #fff;
+	font-family: "FontAwesome";
+	content: "\f0a6";
+	font-size: 18px;
+}
+
+#wp-pagination ul #view-more .hand-point-up:hover:after{
+	color: #a00101;
+	font-family: "FontAwesome";
+	content: "\f0a6";
+	font-size: 18px;
+}

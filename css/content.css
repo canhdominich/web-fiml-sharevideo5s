@@ -1,0 +1,263 @@
+#wr-content{
+	box-sizing: border-box;
+}
+
+/*PATH*/
+#wr-content #path-category{
+	box-sizing: border-box;
+}
+
+#wr-content #path-category #path-home:after{
+	font-family: "FontAwesome";
+	content: "\f015";
+	padding-right : 5px;
+	font-size: 25px;
+	color: #01a050;
+}
+#path-category #path-category-name{
+	font-size: 16px;
+	color: #01a050;
+}
+
+#path-category #path-category-name:hover{
+	color: red;
+}
+/*END PATH*/
+
+/*search.php */
+#wr-content #result-count-videos{
+	width: 100%;
+	padding: 30px 0px 0px 0px;
+	box-sizing: border-box;
+}
+
+#wr-content #result-count-videos p{
+	font-size: 14px;
+	color: #B8BDBF;
+}
+/*end*/
+
+#wr-content #content{
+	width: 70%;
+	padding-right: 15px;
+	box-sizing: border-box;
+}
+
+#wp-cover-advertising{
+	width: 100%;
+	height: 280px;
+	margin-top: 20px;
+	box-sizing: border-box;
+}
+
+#wp-cover-advertising .slides {
+	display: none;
+}	
+
+#wp-cover-advertising .active {
+	background-color: #717171;
+}
+
+/* Fading animation */
+#wp-cover-advertising .fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+}
+
+@keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+	.text {font-size: 11px}
+}
+
+#wp-cover-advertising .advertising .image{
+	width: 100%;
+	min-height: 100px;
+	height: auto;
+	max-height: 280px;
+}
+
+/*feature-cat*/
+.sub-widget-feature{
+	padding-top: 25px;
+	height: 140px;
+	box-sizing: border-box;
+}
+
+#wp-feature{
+	padding-top: 30px;
+}
+
+#wp-feature .category{
+	height: 45px;
+	border-bottom: 1px solid #01a050;
+	box-sizing: border-box;
+}
+
+#wp-feature .category .category-detail{
+	width: 20%;
+	height: 45px;
+	background: #01a050;
+	box-sizing: border-box;
+}
+
+#wp-feature .category .category-detail:hover{
+	background: red;
+	transition: all 0.25s;
+}
+
+.category-detail p{
+	font-weight: bold;
+	color: #fff;
+	padding-top: 10px;
+	font-size: 18px;
+}
+
+
+#wp-feature .category .category-follow{
+	width: 20%;
+	height: 45px;
+	background: red;
+	box-sizing: border-box;
+}
+
+#wp-feature .category .category-follow:hover{
+	background: #01a050;
+	transition: all 0.25s;
+}
+
+.category-follow p{
+	font-weight: bold;
+	color: #fff;
+	padding-top: 10px;
+	font-size: 18px;
+}
+
+#wp-feature .category .category-unfollow{
+	width: 20%;
+	height: 45px;
+	background: #01a050;
+	box-sizing: border-box;
+}
+
+#wp-feature .category .category-unfollow:hover{
+	background: red;
+	transition: all 0.25s;
+}
+
+.category-unfollow p{
+	font-weight: bold;
+	color: #fff;
+	padding-top: 10px;
+	font-size: 18px;
+}
+
+
+#wp-feature .widget-video{
+	margin-top: 30px;
+	width: 33.33%;
+	padding-right: 0px;
+	box-sizing: border-box;
+}
+
+.list-post-video {
+	height: 170px;
+	position: relative;
+	box-sizing: border-box;
+}
+
+/*public*/
+.list-post-video .video{
+	width: 100%;
+	height: auto;
+	max-height: 170px;
+}
+
+
+#wp-feature #video-one{
+	min-height: 300px;
+	padding: 0px 10px 0px 10px;
+}
+
+.list-post-video span{
+	background-color: #e00918;
+	color: #fff;
+	padding: 5px 10px;
+	border-radius: 1px;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 9px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+/*Tao hieu ung cho tung category*/
+.widget-video .mask-suggest-content{
+	position: absolute;
+	background-color: rgba(226, 23, 37,0.9);
+	width: 100%;
+	height: 170px;
+	text-align: center;
+	opacity: 0;
+}
+
+.widget-video .vertical-align{
+	position: relative;
+	top: 43%;
+	color: #FA2F2F;
+}
+
+
+.widget-video:hover .mask-suggest-content{
+	display: block;
+	cursor: pointer;
+	opacity: 100;
+	transition: all 0.5s;
+	border-radius: 1px;
+}
+
+.widget-video .mask-suggest-content .vertical-align>p:after{
+	position: absolute;
+	font-family: "FontAwesome";
+	content: "\f144";
+	font-size: 60px;
+	left: 40%;
+	color: #fff;
+}
+/*end tao hieu ung post cover*/
+
+.list-post-video-title{
+	width: 100%;
+	padding-top: 10px;
+	padding-left: 0px;
+	color: black;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.list-post-video-title .name{
+	color: black;
+	font-size: 16px;
+}
+
+/*index + category*/
+.list-post-video-title .author{
+	color: #01a050;
+	font-weight: 600;
+}
+
+.list-post-video-title .author:hover{
+	color: red;
+}

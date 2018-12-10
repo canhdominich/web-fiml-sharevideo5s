@@ -1,0 +1,302 @@
+#wrapper{
+	background: #fff;
+}
+
+#header{
+	height: 86px;
+	background : red;
+	/*background: #2bbc9b;*/
+}
+
+.wp-inner{
+	width: 100%;
+	margin: 0px auto;
+}
+
+#logo{
+	padding: 10px 50px;
+	display: block;
+}
+
+#main-menu li{
+	float: left;
+}
+
+#main-menu li a{
+	color: #fff;
+	text-transform: uppercase;
+	display: block;
+	padding: 32px 34px;
+}
+
+#main-menu li:hover>a{
+	background: #fff;
+	color: #050505;
+	transition: all 0.25s;
+}
+
+.active a{
+	background: #fff;
+}
+
+#wr-content{
+	padding-top: 20px;
+}
+/*video-suggest*/
+.suggest{
+    box-sizing: border-box;
+    padding-left: 5%;
+}
+
+.suggest .video-suggest{
+	width: 180px;
+	min-width: 50px;
+	padding: 20px 8px;
+	max-height: 350px;
+}
+
+.suggest .video-suggest-content{
+	position: relative;
+}
+
+.video-suggest .video-suggest-content span{
+	background-color: #e00918;
+    color: #fff;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 8px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+ .video-suggest .video-suggest-content img{
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.video-suggest .video-suggest-description h4{
+	margin-top: 15px;
+	font-weight: 500;
+}
+
+.video-suggest .video-suggest-description p{
+	padding-top: 5px;
+}
+
+.video-suggest .video-suggest-description p span{
+	color: #e00918;
+}
+
+.video-suggest .video-suggest-description p a{
+	color: orange;
+}
+
+.video-suggest .video-suggest-description p:hover>a{
+	color: green;
+}
+
+
+.video-suggest .video-suggest-description .view{
+	color: #757a80;
+}
+
+.video-suggest .video-suggest-content .mask-suggest-content{
+	position: absolute;
+    background-color: rgba(255, 255, 255, 0.45);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    opacity: 0;
+}
+
+.video-suggest .video-suggest-content .vertical-align{
+	position: relative;
+    top: 45%;
+    color: #FA2F2F;
+}
+
+
+.video-suggest .video-suggest-content .mask-suggest-content .vertical-align>p:after{
+	position: absolute;
+	font-family: "FontAwesome";
+	content: "\f144";
+	font-size: 40px;
+	left: 40%;
+}
+
+.video-suggest .video-suggest-content:hover .mask-suggest-content{
+	display: block;
+    cursor: pointer;
+    opacity: 100;
+    transition: all 0.3s;
+}
+/*end video-suggest*/
+
+/*side bar*/
+.sidebar{
+	width: 20%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+}
+/*end side-bar*/
+
+/*content*/
+.content{
+	width: 80%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+}
+/*content*/
+
+/*chanel*/
+.chanel .sub-chanel{
+	width: 100%;
+	border-bottom: 1px solid red;
+	padding-bottom: 20px;
+}
+
+
+.sub-chanel .icon{
+	width: 20%;
+	box-sizing: border-box;
+}
+
+
+.sub-chanel .name{
+	width: 80%;
+	box-sizing: border-box;
+}
+
+.sub-chanel .name>p{
+	padding: 6px 5px;
+}
+
+.chanel .decoration-chanel p{
+	box-sizing: border-box;
+	padding-top: 20px;
+}
+
+.chanel .content-chanel-extend{
+	margin-top: 20px;
+	box-sizing: border-box;
+}
+
+.chanel .content-chanel-extend .button{
+	background-color: #e21725;
+    color: #fff;
+    padding: 8px 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 10px;
+    border: 2px solid #e21725;
+    border-radius: 999px;
+}
+
+.chanel .content-chanel-extend:hover>a{
+	background-color: #fff;
+	font-weight: 700;
+    color: #e21725;
+    border: 0.5px dashed #e21725;;
+    transition: all 0.25s;
+}
+
+.chanel .sub-chanel:hover{
+
+}
+/*end-chanel*/
+
+/*content-chanel*/
+.main-video{
+	width: 300px;
+	padding: 15px 15px;
+}
+
+.main-video .video{
+	position: relative;
+}
+
+.main-video .video span{
+	background-color: #e00918;
+    color: #fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+}
+
+.main-video .video img{
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.main-video .video-description h4{
+	margin-top: 15px;
+	font-weight: 500;
+}
+
+.main-video .video-description p{
+	padding-top: 5px;
+}
+
+.main-video .video-description p span{
+	color: #e00918;
+}
+
+.main-video .video-description p a{
+	color: orange;
+}
+
+.main-video .video-description p:hover>a{
+	color: green;
+}
+
+
+.main-video .video-description .view{
+	color: #757a80;
+}
+
+.main-video .video .mask{
+	position: absolute;
+    background-color: rgba(26, 226, 23, 0.58);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    opacity: 0;
+}
+
+.main-video .video .mask .vertical-align{
+	position: relative;
+    top: 45%;
+    color: #fff;
+}
+
+
+.main-video .video .mask .vertical-align>p:after{
+	position: absolute;
+	font-family: "FontAwesome";
+	content: "\f144";
+	font-size: 60px;
+	left: 40%;
+}
+
+.main-video .video:hover .mask{
+	display: block;
+    cursor: pointer;
+    opacity: 100;
+    transition: all 0.3s;
+}
+
+/*end-content-chanel*/
+
+#footer{
+	height: 300px;
+	background: gray;
+}

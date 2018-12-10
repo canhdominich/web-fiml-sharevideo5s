@@ -1,0 +1,141 @@
+#path-category{
+	height: 30px;
+}
+
+/*h1{
+	font-size: 26px;
+	line-height: 33px;
+	padding: 30px 0px;
+	font-weight: bold;
+}
+*/
+#post-image-cover{
+	width: 100%;
+	height: 495px;
+}
+
+#post-image-cover iframe{
+	width: 100%;
+	height: auto;
+	min-height: 495px;
+}
+
+#post-content-detail{
+	padding-top: 45px;
+}
+
+#post-content-detail p{
+	text-align: justify;
+	padding-bottom: 25px;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+#post-content-detail #signature{
+	text-align: right;
+	font-weight: bold;
+}
+
+#post-content-detail #views{
+	text-align: left;
+	font-weight: bold;
+}
+
+#content #interested{
+	width: 100%;
+	padding-bottom: 30px;
+	box-sizing: border-box;
+}
+
+#content #interested-title{
+	padding-bottom: 15px;
+	border-bottom: 1px solid #01a050;
+	line-height: 20px;
+	font-size: 21px;
+	font-weight: bold;
+}
+
+#interested-post{
+	width: 100%;
+}
+
+#interested-post .sigle-post{
+	width: 33.33%;
+	height: 200px;
+	margin-top: 45px;
+	padding-right: 15px;
+	box-sizing: border-box;
+}
+
+.sigle-post .interested-post-title{
+
+}
+
+
+.sigle-post .interested-post-image{
+	position: relative;
+	width: 100%;
+	height: 160px;
+	box-sizing: border-box;
+}
+
+.sigle-post .interested-post-image span{
+	background-color: #e00918;
+	color: #fff;
+	padding: 5px 10px;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 8px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.interested-post-image .image{
+	width: 100%;
+	height: auto;
+	max-height: 160px;
+}
+
+/*Tao hieu ung khi re chuot*/
+.interested-post-image .mask-suggest-content{
+	position: absolute;
+	background-color: rgba(93, 249, 117, 0.73);
+	width: 100%;
+	height: 160px;
+	text-align: center;
+	opacity: 0;
+}
+
+.interested-post-image .vertical-align{
+	position: relative;
+	top: 45%;
+	color: #FA2F2F;
+}
+
+
+.interested-post-image:hover .mask-suggest-content{
+	display: block;
+	cursor: pointer;
+	opacity: 100;
+	transition: all 0.3s;
+}
+
+.interested-post-image .mask-suggest-content .vertical-align>p:after{
+	position: absolute;
+	font-family: "FontAwesome";
+	content: "\f144";
+	font-size: 60px;
+	left: 40%;
+	color: #fff;
+}
+
+/*end hieu ung*/
+
+.sigle-post .interested-post-title{
+	font-size: 14px;
+	line-height: 20px;
+	padding-top: 15px;
+	font-weight: bold;
+	color: #1f1f1f;
+}
